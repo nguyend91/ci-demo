@@ -290,8 +290,8 @@ def main(arguments):
     if not validate_parameters(j_cf["Parameters"].keys(),allow_parameters):
         sys.exit("Parameters are not valid")
 
-    if not validate_resources(j_cf["Resources"],allow_resources):
-        sys.exit("Resources are not valid")
+#    if not validate_resources(j_cf["Resources"],allow_resources):
+#        sys.exit("Resources are not valid")
 
     if not validate_attributes(j_cf["Resources"],require_ref_attributes, allow_additional_attributes, not_allow_attributes):
         sys.exit("Require Resources are not valid")
