@@ -1,4 +1,4 @@
-{}{
+{
   "AWSTemplateFormatVersion": "2010-09-09",
   "Description": "LambCI function and supporting services (see github.com/lambci/lambci for documentation)",
   "Parameters": {
