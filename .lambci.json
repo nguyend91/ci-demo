@@ -1,0 +1,3 @@
+{
+  "cmd": "pip install boto3 --user && python validate_template.py --cf_path lambci.template --cf_rules cf_rules.json --allow_cap yes"
+}
